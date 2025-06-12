@@ -76,7 +76,7 @@ class BSTNode:
         return nodes
 
     def inorder_traversal(self):
-        """In-order traversal to get sorted books"""
+        """In-order traversal untuk sorting buku"""
         books = []
         
         def inorder_helper(node):
@@ -93,7 +93,7 @@ class BSTNode:
         return books
 
     def dfs_partial_search(self, search_term):
-        """DFS search for partial matches"""
+        """DFS search untuk pencarian umum"""
         results = []
         search_lower = search_term.lower()
         
@@ -124,10 +124,9 @@ class LoginApp:
         print("Initializing LoginApp")
 
     def clear_window(self):
-        """
-        Clear all widgets from the main container.
-        Memeriksa apakah self.main_frame ada dan memiliki metode winfo_children,
-        jika tidak, coba pakai self.root dengan pengecekan yang sama.
+        """ Clear semua widgets dari main container.
+        Memeriksa apakah self.main_frame ada dan memiliki metode winfo_children.
+        Jika tidak, coba pakai self.root dengan pengecekan yang sama.
         """
         container = None
 
@@ -147,7 +146,7 @@ class LoginApp:
             print(f"Error clearing window: {e}")
    
     def show_login_awal(self):
-        """Show the initial welcome screen with modern layout"""
+        """Menampilkan welcome screen dengan modern layout"""
         self.clear_window()
 
         # Main frame dengan background krem yang memenuhi seluruh window
@@ -219,7 +218,7 @@ class LoginApp:
             ).pack(expand=True)
 
     def show_login(self):
-        """Show the login screen with 50:50 layout - gambar kiri, form krem kanan"""
+        """Menampilkan login screen with 50:50 layout - gambar kiri, form krem kanan"""
         self.clear_window()
 
         # Left frame untuk gambar - tepat 50% dari lebar window
@@ -364,7 +363,7 @@ class LoginApp:
         signup_label.bind("<Button-1>", lambda e: self.show_signup_window())
 
     def verify_login(self, email, password):
-        """Verify user credentials against stored data"""
+        """Verifikasi data user dari file JSON"""
         try:
             with open(r"user_data.json") as json_file:
                 user_data = json.load(json_file)
@@ -376,7 +375,7 @@ class LoginApp:
         return None
 
     def handle_login(self):
-        """Handle login button click"""
+        """Handle tombol login"""
         email = self.email_entry.get()
         password = self.password_entry.get()
         user_data = self.verify_login(email, password)
@@ -398,7 +397,7 @@ class LoginApp:
         self.dashboard = dashboard  # Simpan agar tidak terhapus
 
     def show_signup_window(self):
-        """Show the signup form with 50:50 layout"""
+        """Menampilkan  signup form dengan layout 50:50"""
         self.clear_window()
         self.root.title("Sign In - BukuPin!")
 
@@ -498,7 +497,7 @@ class LoginApp:
         ).pack(pady=(10, 0), fill="x")
 
     def show_reset_window(self):
-        """Show the password reset form with 50:50 layout"""
+        """Menampilkan password reset form dengan layout 50:50"""
         self.clear_window()
         self.root.title("Reset Password")
 
@@ -657,7 +656,7 @@ class LoginApp:
         self.show_login()
 
     def save_to_json(self, username, phone, email, password, major):
-        """Save user data to JSON file"""
+        """Menyimpan data user ke JSON file"""
         data = {
             "username": username,
             "phone": phone,
@@ -685,7 +684,7 @@ class LoginApp:
             json.dump(users, file, indent=4)
 
     def validate_reset_password(self, new_password, confirm_password):
-        """Validate password reset fields"""
+        """Validasi password reset fields"""
         if not new_password or not confirm_password:
             self.reset_error_label.configure(text="Password tidak boleh kosong!", fg="red")
             return False
@@ -712,7 +711,7 @@ class LoginApp:
                 self.reset_error_label.configure(text="Email tidak terdaftar, coba lagi.", fg="red")
 
     def reset_password_in_json(self, email, new_password):
-        """Update password in JSON file"""
+        """Update password di JSON file"""
         if not email or not new_password:  
             return False
 
@@ -761,7 +760,7 @@ class LibraryGUI:
         self.setup_ui()
     
     def load_default_data(self):
-        """Load data from JSON file with fallback to sample data"""
+        """Load data dari JSON file dengan cadangan ke sample data"""
         try:
             # Coba load dari file JSON utama
             base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -809,7 +808,7 @@ class LibraryGUI:
             self.debug_tree_structure(tree)
         
     def load_from_json(self, filename):
-        """Load and validate JSON data"""
+        """Load dan validasi JSON data"""
         try:
             filename = os.path.join(os.path.dirname(__file__), filename)
             with open(filename, 'r', encoding='utf-8') as f:
@@ -864,7 +863,7 @@ class LibraryGUI:
             return None
     
     def build_trees(self, data):
-        """Build trees with validation to prevent shared references"""
+        """Membangun pohon dengan validasi untuk mencegah referensi bersama"""
         self.trees = {}
         self.trees_by_genre = {}  # PERBAIKAN: Mengisi kedua atribut
         self.all_books = data
@@ -894,7 +893,7 @@ class LibraryGUI:
                 print(f"BST for {genre} is valid: {is_valid}")
 
     def build_balanced_bst(self, sorted_books):
-        """Build a balanced BST from sorted list of books with validation"""
+        """Membangun BST seimbang dari daftar buku yang sudah diurutkan dengan validasi"""
         if not sorted_books:
             return None
         
@@ -925,7 +924,7 @@ class LibraryGUI:
         return root
     
     def validate_bst_structure(self, root, visited_nodes=None):
-        """Validate BST structure to ensure no node has multiple parents"""
+        """Validasi struktur BST untuk memastikan tidak ada node yang memiliki banyak parent"""
         if visited_nodes is None:
             visited_nodes = set()
         
@@ -947,7 +946,7 @@ class LibraryGUI:
         return left_valid and right_valid
 
     def debug_tree_structure(self, root, level=0, prefix="Root: "):
-        """Debug function to print tree structure"""
+        """Fungsi debug untuk mencetak struktur pohon"""
         if root is None:
             return
         
@@ -960,7 +959,7 @@ class LibraryGUI:
             self.debug_tree_structure(root.right, level + 1, "R--- ")
 
     def check_duplicate_books(self, data):
-        """Check for duplicate books that might cause issues"""
+        """Periksa buku-buku duplikat yang mungkin menyebabkan masalah."""
         seen_ids = {}
         seen_titles = {}
         
@@ -1054,7 +1053,7 @@ class LibraryGUI:
                 widget.destroy()
 
     def show_dashboard(self):
-        """Method untuk menampilkan dashboard - PERBAIKAN: Sudah ada implementasi"""
+        """Method untuk menampilkan dashboard """
         self.clear_content()
         
         tk.Label(self.main_content, text="Welcome to Library Management System", 
@@ -1227,7 +1226,7 @@ class LibraryGUI:
             self.populate_genre_books(selected_genre)
         
     def on_genre_search(self, event=None):
-        """Handle search within selected genre"""
+        """Handle search dengan menyeleksi genre"""
         selected_genre = self.genre_var.get()
         search_term = self.genre_search_var.get().strip().lower()
 
@@ -1262,7 +1261,7 @@ class LibraryGUI:
             self.populate_genre_books(selected_genre)
 
     def populate_genre_books(self, genre):
-        """Populate tree with all books from selected genre"""
+        """Isi pohon dengan semua buku dari genre yang dipilih."""
         if genre in self.trees:
             # Get books from BST in sorted order
             books = self.trees[genre].inorder_traversal()
@@ -1273,7 +1272,7 @@ class LibraryGUI:
                 fg='#654321')
 
     def clear_genre_search(self):
-        """Clear the search field and show all books in selected genre"""
+        """Bersihkan search field dan tampilkan semua buku dalam genre yang dipilih"""
         self.genre_search_var.set("")
         selected_genre = self.genre_var.get()
         if selected_genre and selected_genre in self.trees:
@@ -1385,7 +1384,7 @@ class LibraryGUI:
         self.draw_bst_tree(selected_genre)
     
     def calculate_tree_width(self, root, level=0):
-        """Calculate the total width needed for balanced tree"""
+        """Kalkulasi total lebar yang dibutuhkan untuk pohon seimbang"""
         if not root:
             return 0
         
@@ -1398,7 +1397,7 @@ class LibraryGUI:
         return max_nodes_at_bottom * min_spacing
 
     def get_tree_depth(self, root):
-        """Calculate the depth of the tree"""
+        """Kalkulasi kedalaman pohon"""
         if not root:
             return 0
         
@@ -1421,7 +1420,7 @@ class LibraryGUI:
             self.tree_canvas.yview_moveto(0.0)
 
     def calculate_tree_positions_reingold_tilford(self, root):
-        """Implementasi Reingold-Tilford Algorithm yang sudah diperbaiki"""
+        """Implementasi Reingold-Tilford Algorithm"""
         if not root:
             return []
         
@@ -1439,7 +1438,7 @@ class LibraryGUI:
         return positions
 
     def assign_initial_x(self, node, depth=0):
-        """Post-order traversal untuk assign posisi X awal - FIXED"""
+        """Post-order traversal untuk assign posisi X awal """
         if not node:
             return
         
@@ -1468,7 +1467,7 @@ class LibraryGUI:
         self._node_positions[id(node)] = node.initial_x
 
     def calculate_final_positions(self, node, x_offset, depth, positions, parent_pos=None):
-        """Calculate final positions dengan konsistensi koordinat - FIXED"""
+        """Kalkulasi final positions dengan konsistensi koordinat"""
         if not node:
             return
         
@@ -1497,7 +1496,7 @@ class LibraryGUI:
             self.calculate_final_positions(node.right, x_offset, depth + 1, positions, current_pos)
 
     def draw_bst_tree(self, genre):
-        """Draw BST tree dengan sinkronisasi node-arrow yang tepat - FIXED"""
+        """Draw BST tree dengan sinkronisasi node-arrow yang tepat"""
         if not hasattr(self, 'tree_canvas'):
             return
 
@@ -1591,7 +1590,7 @@ class LibraryGUI:
 
         
     def draw_connection_fixed(self, parent_pos, child_pos):
-        """Draw connection dengan koordinat yang akurat - FIXED"""
+        """Draw connection dengan koordinat yang akurat """
         px, py = parent_pos
         cx, cy = child_pos
         
@@ -1622,7 +1621,7 @@ class LibraryGUI:
             )
 
     def draw_tree_node_fixed(self, pos, node, is_highlighted=False):
-        """Draw tree node dengan positioning yang konsisten - FIXED"""
+        """Draw tree node dengan positioning yang konsisten"""
         x, y = pos
         
         # Node styling
@@ -1683,7 +1682,7 @@ class LibraryGUI:
             tags="info"
         )
     def start_drag(self, event):
-        """Start dragging operation"""
+        """Mulai operasi dragging"""
         self.drag_data["x"] = event.x
         self.drag_data["y"] = event.y
     
@@ -1711,17 +1710,17 @@ class LibraryGUI:
         self.refresh_tree_view()
     
     def zoom_in(self):
-        """Zoom in button handler"""
+        """Zoom in tombol handler"""
         self.zoom_factor = min(2.0, self.zoom_factor * 1.2)
         self.refresh_tree_view()
     
     def zoom_out(self):
-        """Zoom out button handler"""
+        """Zoom out tombol handler"""
         self.zoom_factor = max(0.3, self.zoom_factor * 0.8)
         self.refresh_tree_view()
     
     def refresh_tree_view(self):
-        """Refresh tree view dengan pembersihan yang lebih thorough - FIXED"""
+        """Refresh tree view dengan pembersihan yang lebih teliti """
         if hasattr(self, 'tree_canvas'):
             # Clear canvas completely
             self.tree_canvas.delete("all")
@@ -1738,12 +1737,12 @@ class LibraryGUI:
                 self.draw_bst_tree(selected_genre)
 
     def clear_search(self):
-        """Clear search term and refresh view"""
+        """Hapus kata kunci pencarian dan refresh view"""
         self.viz_search_var.set("")
         self.refresh_tree_view()
     
     def load_json_file(self):
-        """Load JSON file through file dialog"""
+        """Load JSON file melalui file dialog"""
         file_path = filedialog.askopenfilename(
             title="Select JSON File",
             filetypes=[("JSON files", "*.json"), ("All files", "*.*")]
@@ -1764,14 +1763,8 @@ class LibraryGUI:
             except Exception as e:
                 messagebox.showerror("Error", f"Error loading file: {str(e)}")
     
-    def reload_data(self):
-        """Reload data from default file"""
-        self.load_default_data()
-        messagebox.showinfo("Info", "Data reloaded successfully")
-        self.show_dashboard()
-    
     def export_data(self):
-        """Export current data to JSON file"""
+        """Export data terbaru ke JSON file"""
         if not self.all_books:
             messagebox.showwarning("Warning", "No data to export")
             return
@@ -1790,20 +1783,6 @@ class LibraryGUI:
             except Exception as e:
                 messagebox.showerror("Error", f"Error exporting file: {str(e)}")
     
-    def debug_node_positions(self, tree_structure):
-        """Debug method untuk melihat posisi nodes dan connections"""
-        print("=== DEBUG: Node Positions ===")
-        for i, node_data in enumerate(tree_structure):
-            node = node_data['node']
-            pos = node_data['pos']
-            parent_pos = node_data['parent_pos']
-            
-            print(f"Node {i}: {node.title}")
-            print(f"  Position: {pos}")
-            print(f"  Parent Position: {parent_pos}")
-            print(f"  Level: {node_data['level']}")
-            print()
-
     def find_by_id(self, node, target_id):
         if node is None:
             return None
@@ -1822,7 +1801,6 @@ class LibraryGUI:
                 node.borrow_date = borrow_date
                 return True
         return False
-
 
     def show_book_return(self):
         self.clear_content()
@@ -1949,7 +1927,7 @@ class LibraryGUI:
         return False
 
     def simpan_log_pengembalian(self,id_buku, judul, username, tanggal):
-        """Save return log to file"""
+        """Simpan log pengembalian ke file"""
         try:
             log_entry = {
                 'id_buku': id_buku,
@@ -2064,40 +2042,16 @@ class LibraryGUI:
                 font=("Arial", 10), command=confirm_borrow).pack(pady=7)
 
     def populate_genre_tree(self, books):
-        """Populate the genre tree with given books + pinjam button"""
+        """Isi pohon genre dengan buku-buku yang diberikan + tombol pinjam"""
         # Clear existing items
         for item in self.genre_tree.get_children():
             self.genre_tree.delete(item)
             
-        for book in books:
-            status = self.get_book_status(book['id_buku'])  
+        for book in books: 
             self.genre_tree.insert('', 'end', values=(
                 book['id_buku'], 
                 book['title'], 
                 book['penulis']))
-
-    def get_book_status(self, book_id):
-        node_found = None
-        for tree in self.trees_by_genre.values():
-            node_found = self.find_by_id(tree, book_id)
-            if node_found:
-                break
-        if not node_found:
-            return "Tidak Tersedia"
-
-        if hasattr(node_found, 'borrowed_until') and node_found.borrowed_until:
-            borrowed_date = node_found.borrowed_until
-            if isinstance(borrowed_date, str):
-                borrowed_date = datetime.strptime(borrowed_date, "%Y-%m-%d")
-
-            now = datetime.now()
-            if borrowed_date > now:
-                days_left = (borrowed_date - now).days
-                return f"Dipinjam ({days_left} hari)"
-            else:
-                days_late = (now - borrowed_date).days
-                return f"Terlambat ({days_late} hari)"
-        return "Tersedia"
 
     def get_current_books(self):
         """Mengembalikan semua buku dari genre aktif atau seluruh buku"""
@@ -2114,7 +2068,6 @@ class LibraryGUI:
             return all_books
 
 
-
 # ================== MAIN ==================
 def main():
     root = tk.Tk()
@@ -2122,4 +2075,3 @@ def main():
     root.mainloop()
 if __name__ == "__main__":
     main()
-
