@@ -1,0 +1,16 @@
+[
+    {
+        "username": "Naufal Shalih",
+        "phone": "67767678",
+        "email": "nau@gmail.com",
+        "password": "232323",
+        "major": "UNESA"
+    },
+    {
+        "username": "Anonymous",
+        "phone": "22222222",
+        "email": "An@gmail.com",
+        "password": "121212",
+        "major": "UI"
+    }
+]

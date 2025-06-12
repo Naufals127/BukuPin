@@ -1,0 +1,37 @@
+[
+  {
+    "id_buku": "BK007",
+    "judul": "Prevent compare claim",
+    "username": "Naufal Shalih",
+    "tanggal_kembali": "05-06-2025",
+    "timestamp": "2025-06-05T15:04:22.231380"
+  },
+  {
+    "id_buku": "BK002",
+    "judul": "You seek on",
+    "username": "Naufal Shalih",
+    "tanggal_kembali": "05-06-2025",
+    "timestamp": "2025-06-05T16:21:56.474607"
+  },
+  {
+    "id_buku": "BK015",
+    "judul": "News huge important remember",
+    "username": "Naufal Shalih",
+    "tanggal_kembali": "10-06-2025",
+    "timestamp": "2025-06-10T07:48:41.250911"
+  },
+  {
+    "id_buku": "BK012",
+    "judul": "Product hundred treatment ask institution",
+    "username": "Naufal Shalih",
+    "tanggal_kembali": "10-06-2025",
+    "timestamp": "2025-06-10T10:58:00.918376"
+  },
+  {
+    "id_buku": "BK004",
+    "judul": "But price",
+    "username": "Naufal Shalih",
+    "tanggal_kembali": "11-06-2025",
+    "timestamp": "2025-06-11T20:39:01.690740"
+  }
+]

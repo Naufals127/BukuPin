@@ -1,0 +1,602 @@
+[
+  {
+    "ID": "BK001",
+    "Judul": "Read yard remain their finally",
+    "Penulis": "Alan Watson",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK002",
+    "Judul": "You seek on",
+    "Penulis": "Mary Brown",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK003",
+    "Judul": "Real peace really",
+    "Penulis": "Tracey Chang",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK004",
+    "Judul": "But price",
+    "Penulis": "Timothy Walker",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK005",
+    "Judul": "Down myself whether",
+    "Penulis": "Wendy Davis",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK006",
+    "Judul": "Drive thousand why",
+    "Penulis": "Alan Oconnor",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK007",
+    "Judul": "Prevent compare claim",
+    "Penulis": "Elizabeth Espinoza",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK008",
+    "Judul": "Point tonight everything tend",
+    "Penulis": "Jennifer Moreno",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK009",
+    "Judul": "Kitchen throughout participant choose child",
+    "Penulis": "Darrell Hall",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK010",
+    "Judul": "Partner example trial discuss year",
+    "Penulis": "Christopher Aguilar",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK011",
+    "Judul": "Four knowledge",
+    "Penulis": "Jennifer Evans",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK012",
+    "Judul": "Product hundred treatment ask institution",
+    "Penulis": "William Smith",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK013",
+    "Judul": "Bill product continue",
+    "Penulis": "Spencer Davis",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK014",
+    "Judul": "Player the hard follow",
+    "Penulis": "Frederick Morales",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK015",
+    "Judul": "News huge important remember",
+    "Penulis": "Kimberly Mann",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK016",
+    "Judul": "Head image gun better",
+    "Penulis": "Melissa Diaz",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK017",
+    "Judul": "No cold could meeting establish",
+    "Penulis": "Angela Armstrong",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK018",
+    "Judul": "Picture style might",
+    "Penulis": "Troy Kelley",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK019",
+    "Judul": "Wear artist",
+    "Penulis": "Kelli Soto",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK020",
+    "Judul": "Book require put beautiful training",
+    "Penulis": "Nancy Clark",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK021",
+    "Judul": "Total remain drop page",
+    "Penulis": "Tyler West",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK022",
+    "Judul": "Color citizen girl wear",
+    "Penulis": "Antonio Burnett",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK023",
+    "Judul": "Condition ball fall economic",
+    "Penulis": "Nichole Romero",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK024",
+    "Judul": "May final stage serious student",
+    "Penulis": "Kenneth Torres",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK025",
+    "Judul": "Himself matter yeah matter", 
+    "Penulis": "Lisa Peters",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK026",
+    "Judul": "Important evidence place ago fall",
+    "Penulis": "Justin Shaw",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK027",
+    "Judul": "Hotel party catch quickly",
+    "Penulis": "Krista Porter",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK028",
+    "Judul": "Front society",
+    "Penulis": "Crystal Taylor",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK029",
+    "Judul": "Lead state member",
+    "Penulis": "Susan Norman",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK030",
+    "Judul": "Art not",
+    "Penulis": "James Patel",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK031",
+    "Judul": "Election mind any",
+    "Penulis": "Bryan Martinez",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK032",
+    "Judul": "Born high",
+    "Penulis": "Robert Jones",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK033",
+    "Judul": "Somebody ball",
+    "Penulis": "Ryan Thomas",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK034",
+    "Judul": "Capital couple member indeed",
+    "Penulis": "Joshua Olson",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK035",
+    "Judul": "Help factor",
+    "Penulis": "Matthew Guerra",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK036",
+    "Judul": "Matter six exactly national",
+    "Penulis": "Lori Wilkins",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK037",
+    "Judul": "Sense his almost little cup",
+    "Penulis": "Emily Daniel",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK038",
+    "Judul": "Sense official claim",
+    "Penulis": "Ashley Allen",
+    "Genre": "Non-Fiction" 
+  },
+  {
+    "ID": "BK039",
+    "Judul": "They area",
+    "Penulis": "Paul Davies",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK040",
+    "Judul": "They off television subject discussion",
+    "Penulis": "Jerome Tucker",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK041",
+    "Judul": "Claim so group",
+    "Penulis": "Kenneth Moore",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK042",
+    "Judul": "Machine participant",
+    "Penulis": "David Randolph",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK043",
+    "Judul": "Arrive organization performance stand management",
+    "Penulis": "Tracey Murphy",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK044",
+    "Judul": "Member PM collection",
+    "Penulis": "Brittany Carlson",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK045",
+    "Judul": "And morning consider compare",
+    "Penulis": "Kenneth Figueroa",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK046",
+    "Judul": "Deep we later board",
+    "Penulis": "Beth Cook",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK047",
+    "Judul": "Outside figure relationship",
+    "Penulis": "Maria Ritter",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK048",
+    "Judul": "Name trip indicate student section",
+    "Penulis": "Andrea Gonzales",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK049",
+    "Judul": "Everyone bill against not material",
+    "Penulis": "Barry Hernandez",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK050",
+    "Judul": "Reflect nor challenge",
+    "Penulis": "Pamela Gay",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK051",
+    "Judul": "Guy per",
+    "Penulis": "Anna Gray",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK052",
+    "Judul": "Argue free camera",
+    "Penulis": "Autumn Forbes DDS",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK053",
+    "Judul": "Smile realize worker",
+    "Penulis": "Curtis Maddox",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK054",
+    "Judul": "Interest common system",
+    "Penulis": "Thomas Sullivan",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK055",
+    "Judul": "And nor simple",
+    "Penulis": "John Davis",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK056",
+    "Judul": "Difficult say late",
+    "Penulis": "Jessica Sanchez",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK057",
+    "Judul": "Mr ten human fall half",
+    "Penulis": "Lisa Nguyen",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK058",
+    "Judul": "He third",
+    "Penulis": "Thomas Baker",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK059",
+    "Judul": "Style activity size industry success",
+    "Penulis": "Wesley Eaton",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK060",
+    "Judul": "Adult lay focus individual",
+    "Penulis": "Lori Harris",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK061",
+    "Judul": "Person drive suffer",
+    "Penulis": "Shirley Farmer DVM",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK062",
+    "Judul": "Write be tonight full me",
+    "Penulis": "Crystal Hanson",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK063",
+    "Judul": "Simply should door",
+    "Penulis": "Michael Hodges",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK064",
+    "Judul": "Coach officer both others",
+    "Penulis": "Andrea Roman",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK065",
+    "Judul": "Line speech",
+    "Penulis": "Tara Ramirez",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK066",
+    "Judul": "Matter government would",
+    "Penulis": "Mary Miller",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK067",
+    "Judul": "Message first bag wear",
+    "Penulis": "Omar Smith",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK068",
+    "Judul": "Spend Mr",
+    "Penulis": "Samuel Duffy",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK069",
+    "Judul": "Heart word despite future",
+    "Penulis": "Christopher Campbell",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK070",
+    "Judul": "Economic some consumer",
+    "Penulis": "Larry Carroll",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK071",
+    "Judul": "Per morning military",
+    "Penulis": "Tina Kane",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK072",
+    "Judul": "Thank model",
+    "Penulis": "Tiffany Potts",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK073",
+    "Judul": "Manager drop require",
+    "Penulis": "Jesse Castillo",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK074",
+    "Judul": "Sure bar unit",
+    "Penulis": "Rachel Mcmahon",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK075",
+    "Judul": "Blue group unit suddenly",
+    "Penulis": "Jeremy Kelly",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK076",
+    "Judul": "Enough detail either next",
+    "Penulis": "David Kennedy",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK077",
+    "Judul": "Anything pressure total",
+    "Penulis": "Alex Crawford",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK078",
+    "Judul": "Per dark production",
+    "Penulis": "Sharon Bailey",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK079",
+    "Judul": "World reveal",
+    "Penulis": "Taylor Little",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK080",
+    "Judul": "Into huge then term",
+    "Penulis": "Jonathan Rodriguez III",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK081",
+    "Judul": "Keep foreign discuss",
+    "Penulis": "Sarah Miranda",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK082",
+    "Judul": "Cut economy material",
+    "Penulis": "Jeffery Ramos",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK083",
+    "Judul": "Talk check someone end mother",
+    "Penulis": "Kelly Freeman",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK084",
+    "Judul": "Interesting nice it central throw",
+    "Penulis": "Timothy Lewis",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK085",
+    "Judul": "Need involve service",
+    "Penulis": "Jason Lopez",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK086",
+    "Judul": "Save visit reality religious",
+    "Penulis": "Sonya Bell",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK087",
+    "Judul": "Join series official",
+    "Penulis": "Samantha Yates",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK088",
+    "Judul": "Art control computer day",
+    "Penulis": "David Lewis",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK089",
+    "Judul": "Back nature safe instead",
+    "Penulis": "Travis Miller",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK090",
+    "Judul": "Exist certain effort relationship",
+    "Penulis": "Michele Velasquez",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK091",
+    "Judul": "Recently job relate few",
+    "Penulis": "Jason Espinoza",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK092",
+    "Judul": "Article movie our",
+    "Penulis": "Sara Mullins",
+    "Genre": "Fiction"
+  },
+  {
+    "ID": "BK093",
+    "Judul": "Fear learn sea fly none",
+    "Penulis": "Thomas Marks",
+    "Genre": "Non-Fiction"
+  },
+  {
+    "ID": "BK094",
+    "Judul": "Enough federal",
+    "Penulis": "Jesse Greene",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK095",
+    "Judul": "Skin save parent TV development",
+    "Penulis": "David Rojas",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK096",
+    "Judul": "Same quite itself since",
+    "Penulis": "Justin Kelley",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK097",
+    "Judul": "Later understand life create explain",
+    "Penulis": "Elizabeth Miller",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK098",
+    "Judul": "Outside understand continue focus",
+    "Penulis": "Michael Curry",
+    "Genre": "Science"
+  },
+  {
+    "ID": "BK099",
+    "Judul": "Our any usually page red",
+    "Penulis": "Angela Gomez",
+    "Genre": "Fantasy"
+  },
+  {
+    "ID": "BK100",
+    "Judul": "Reach explain fish",
+    "Penulis": "Thomas Turner",
+    "Genre": "Fiction"
+  }
+]
