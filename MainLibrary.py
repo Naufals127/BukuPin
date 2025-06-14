@@ -751,9 +751,8 @@ class LibraryGUI:
         self.root.geometry("1200x600")
         self.root.configure(bg='#8B4513')
 
-        # Data - PERBAIKAN: Menggunakan nama atribut yang benar
-        self.trees = {}  # Tetap untuk kompatibilitas backward
-        self.trees_by_genre = {}  # Atribut yang diperlukan
+        self.trees = {}  
+        self.trees_by_genre = {}  
         self.all_books = []
         self.load_default_data()
         
@@ -865,7 +864,7 @@ class LibraryGUI:
     def build_trees(self, data):
         """Membangun pohon dengan validasi untuk mencegah referensi bersama"""
         self.trees = {}
-        self.trees_by_genre = {}  # PERBAIKAN: Mengisi kedua atribut
+        self.trees_by_genre = {}  
         self.all_books = data
         
         # Group books by genre
@@ -883,7 +882,6 @@ class LibraryGUI:
             sorted_books = sorted(books, key=lambda x: x["Judul"])
             tree_root = self.build_balanced_bst(sorted_books)
             
-            # PERBAIKAN: Mengisi kedua dictionary
             self.trees[genre] = tree_root
             self.trees_by_genre[genre] = tree_root
             
@@ -1428,7 +1426,7 @@ class LibraryGUI:
         self._node_positions = {}
         self._leaf_counter = 0
         
-        # Step 1: Calculate initial positions using post-order traversal
+        # Step 1: Calculate initial positions dengan post-order traversal
         self.assign_initial_x(root)
         
         # Step 2: Calculate final positions dengan tracking yang konsisten
@@ -1862,9 +1860,7 @@ class LibraryGUI:
                     node.borrowed_until = None
                     node.borrow_date = None
 
-                    self.simpan_log_pengembalian(id_buku, node.title
-                                                if hasattr(self, 'username') else 'User',
-                                                datetime.now().strftime('%d-%m-%Y'))
+                    self.simpan_log_pengembalian(id_buku, node.title, datetime.now().strftime('%d-%m-%Y'))
                     messagebox.showinfo("Berhasil", f"Buku '{judul_buku}' berhasil dikembalikan!")
                     update_return_table()
                     return
@@ -1926,13 +1922,12 @@ class LibraryGUI:
                 return True
         return False
 
-    def simpan_log_pengembalian(self,id_buku, judul, username, tanggal):
+    def simpan_log_pengembalian(self,id_buku, judul, tanggal):
         """Simpan log pengembalian ke file"""
         try:
             log_entry = {
                 'id_buku': id_buku,
                 'judul': judul,
-                'username': username,
                 'tanggal_kembali': tanggal,
                 'timestamp': datetime.now().isoformat()
             }
@@ -1953,7 +1948,7 @@ class LibraryGUI:
             with open(log_file, 'w', encoding='utf-8') as f:
                 json.dump(logs, f, indent=2, ensure_ascii=False)
                 
-            print(f"Return logged: {judul} returned by {username}")
+            print(f"Return logged: {judul} returned ")
             
         except Exception as e:
             print(f"Error saving return log: {e}")
